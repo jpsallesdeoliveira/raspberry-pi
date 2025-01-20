@@ -46,7 +46,6 @@ Certifique-se de ter instalado no sistema:
 ```bash
 cd monitorar
 
-**Acesse o diretório do projeto:**
+chmod +x script.sh
 
-```bash
-cd monitorar
+./script.sh
