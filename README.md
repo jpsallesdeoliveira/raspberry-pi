@@ -1,54 +1,47 @@
-Monitorar script python3
+# 🖥️ Monitorar Script Python3
 
+## 📂 Índice
 
-📂 Índice
+- [Sobre o Projeto](#-sobre-o-projeto)
+- [Tecnologias Utilizadas](#-tecnologias-utilizadas)
+- [Como Executar o Projeto](#-como-executar-o-projeto)
 
-Sobre o Projeto
+---
 
-Tecnologias Utilizadas
+## 📖 Sobre o Projeto
 
-Como Executar o Projeto
+Este projeto tem como objetivo monitorar a atividade de um script em **Python3** no sistema **Ubuntu**, utilizando **Shell Script** e **Python3**, permitindo abrir novamento o script caso esteja fechado.
 
-📖 Sobre o Projeto
+---
 
-Este projeto tem como objetivo monitorar a atividade de um script em python3 no sistema Ubuntu utilizando Shell Script e Python3, permitindo abrir novamento o script caso esteja fechado.
-
-⚙️ Tecnologias Utilizadas
+## ⚙️ Tecnologias Utilizadas
 
 Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-Ubuntu - Sistema operacional utilizado.
+- **Ubuntu** - Sistema operacional utilizado.
+- **Shell Script** - Para automação de tarefas no terminal.
+- **Python3** - Para funcionalidades mais avançadas de monitoramento.
 
-Shell Script - Para automação de tarefas no terminal.
+---
 
-Python3 - Para funcionalidades mais avançadas de monitoramento.
+## 🚀 Como Executar o Projeto
 
-🚀 Como Executar o Projeto
-
-Pré-requisitos
+### ✅ Pré-requisitos
 
 Certifique-se de ter instalado no sistema:
 
-Ubuntu (versão recomendada: 20.04 ou superior)
+- **Ubuntu** (versão recomendada: 20.04 ou superior)
+- **Python3**
+- **Permissões de administrador (sudo)**
 
-Python3
+---
 
-Permissões de administrador (sudo)
+### 📥 Passos para execução
 
-Passos para execução
+**Repositório:**  
+[https://github.com/jpsallesdeoliveira/raspberry-pi](https://github.com/jpsallesdeoliveira/raspberry-pi)
 
-Repositório:
+**Acesse o diretório do projeto:**
 
-https://github.com/jpsallesdeoliveira/raspberry-pi
-
-Acesse o diretório do projeto:
-
+```bash
 cd monitorar
-
-Torne o script shell executável:
-
-chmod +x script.sh
-
-Execute o script de monitoramento:
-
-./script.sh
