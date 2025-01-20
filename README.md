@@ -45,3 +45,8 @@ Certifique-se de ter instalado no sistema:
 
 ```bash
 cd monitorar
+
+**Acesse o diretório do projeto:**
+
+```bash
+cd monitorar
