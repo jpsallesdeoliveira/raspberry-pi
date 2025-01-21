@@ -45,19 +45,22 @@ Certifique-se de ter instalado no sistema:
 
 ```bash
 cd monitorar
+```
 
+**Tornar arquivo executável:**
+
+```bash
 chmod +x script.sh
+```
 
+**Executar arquivo:**
+```bash
 ./script.sh
-
 ```
 
 ---
 
-# Script de Monitoramento de Processo
-
-## Descrição
-Este script monitora se um processo Python está em execução com base em um arquivo de PID. Caso o processo não esteja ativo, ele será reiniciado automaticamente.
+# Script de Monitoramento shell
 
 ## Pseudocódigo
 
