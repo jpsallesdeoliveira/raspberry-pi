@@ -111,7 +111,7 @@ INÍCIO
 FIM
 ```
 
-# Fluxo de Interação entre os Scripts
+## Fluxo de Interação entre os Scripts
 
 Este diagrama representa o fluxo de interação entre o script Shell (`script.sh`) e o script Python (`script.py`).
 
