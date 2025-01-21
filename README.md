@@ -117,18 +117,18 @@ Este diagrama representa o fluxo de interação entre o script Shell (`script.sh
 
 ```mermaid
 graph TD;
-    A[Início - script.sh] --> B{Arquivo pid.txt existe?};
-    B -- Sim --> C[Ler PID do arquivo];
-    B -- Não --> F[Exibir "shell -> 1: It is dead"];
-    C --> D{Processo Python está ativo?};
-    D -- Sim --> E[Exibir "shell -> 1: It is alive"];
-    D -- Não --> F;
-    F --> G[Executar script Python (script.py)];
-    G --> H[Python grava seu PID em pid.txt];
-    H --> I[Python exibe "python -> 2: I am alive"];
-    I --> J{Repetiu 3 vezes?};
-    J -- Não --> I;
-    J -- Sim --> K[Python exibe "python -> 2: I gonna die now, bye"];
-    K --> L[Fim do script Python];
-    L --> M[script.sh aguarda 1 segundo e recomeça];
-    M --> B;
+    A[Início - script.sh] --> B{Arquivo pid.txt existe?}
+    B -- Sim --> C[Ler PID do arquivo]
+    B -- Não --> F[Exibir mensagem: shell morto]
+    C --> D{Processo Python está ativo?}
+    D -- Sim --> E[Exibir mensagem: shell vivo]
+    D -- Não --> F
+    F --> G[Executar script Python script.py]
+    G --> H[Python grava seu PID em pid.txt]
+    H --> I[Python exibe: estou vivo]
+    I --> J{Repetiu 3 vezes?}
+    J -- Não --> I
+    J -- Sim --> K[Python exibe: vou morrer, tchau]
+    K --> L[Fim do script Python]
+    L --> M[script.sh aguarda 1 segundo e recomeça]
+    M --> B
