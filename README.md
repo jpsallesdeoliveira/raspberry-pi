@@ -47,7 +47,7 @@ Certifique-se de ter instalado no sistema:
 cd monitorar
 ```
 
-**Tornar arquivo executável:**
+**Tornar o script executável:**
 
 ```bash
 chmod +x script.sh
@@ -60,9 +60,7 @@ chmod +x script.sh
 
 ---
 
-# Script de Monitoramento shell
-
-## Pseudocódigo
+## Pseudocódigo shell
 
 ```pseudo
 INÍCIO
