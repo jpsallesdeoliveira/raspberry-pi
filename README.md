@@ -85,6 +85,8 @@ INÍCIO
 FIM
 ```
 
+---
+
 ## Pseudocódigo python3
 
 ```pseudo
@@ -110,6 +112,8 @@ INÍCIO
     ESCREVER "python -> 2: I gonna die now, bye"
 FIM
 ```
+
+---
 
 ## Fluxo de Interação entre os Scripts
 
