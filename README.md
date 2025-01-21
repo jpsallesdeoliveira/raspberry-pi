@@ -83,3 +83,30 @@ INÍCIO
         AGUARDAR 1 SEGUNDO
     FIM_ENQUANTO
 FIM
+```
+
+## Pseudocódigo python3
+
+```pseudo
+INÍCIO
+    OBTER pid DO PROCESSO ATUAL
+
+    TENTAR
+        ABRIR "pid.txt" EM MODO DE ESCRITA
+        ESCREVER pid NO ARQUIVO
+        FECHAR ARQUIVO
+    SENÃO
+        ESCREVER "python -> Error when trying to save the file" NA SAÍDA PADRÃO
+        ABRIR "cromai.log" EM MODO DE ESCRITA
+        ESCREVER "python -> Error when trying to save the file" NO ARQUIVO
+        FECHAR ARQUIVO
+    FIM_TENTAR
+
+    PARA 3 VEZES FAÇA
+        ESCREVER "python -> 2: I am alive"
+        ESPERAR 5 SEGUNDOS
+    FIM_PARA
+
+    ESCREVER "python -> 2: I gonna die now, bye"
+FIM
+```
