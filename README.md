@@ -60,7 +60,7 @@ chmod +x script.sh
 
 ---
 
-## Pseudocódigo shell
+## 📜 Pseudocódigo shell
 
 ```pseudo
 INÍCIO
@@ -87,7 +87,7 @@ FIM
 
 ---
 
-## Pseudocódigo python3
+## 📜 Pseudocódigo python3
 
 ```pseudo
 INÍCIO
@@ -115,7 +115,7 @@ FIM
 
 ---
 
-## Fluxo de Interação entre os Scripts
+## 🔄 Fluxo de Interação entre os Scripts
 
 Este diagrama representa o fluxo de interação entre o script Shell (`script.sh`) e o script Python (`script.py`).
 
