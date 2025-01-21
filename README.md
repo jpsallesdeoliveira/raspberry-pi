@@ -121,7 +121,7 @@ graph TD;
     B -- Sim --> C[Ler PID do arquivo]
     B -- Não --> F[Exibir mensagem: script morto]
     C --> D{Processo Python está ativo?}
-    D -- Sim --> E[Exibir mensagem: script vivo]
+    D -- Sim --> E[Exibir mensagem: script vivo] --> M
     D -- Não --> F
     F --> G[Executar script Python script.py]
     G --> H[Python grava seu PID em pid.txt]
