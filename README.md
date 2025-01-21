@@ -119,9 +119,9 @@ Este diagrama representa o fluxo de interação entre o script Shell (`script.sh
 graph TD;
     A[Início - script.sh] --> B{Arquivo pid.txt existe?}
     B -- Sim --> C[Ler PID do arquivo]
-    B -- Não --> F[Exibir mensagem: shell morto]
+    B -- Não --> F[Exibir mensagem: script morto]
     C --> D{Processo Python está ativo?}
-    D -- Sim --> E[Exibir mensagem: shell vivo]
+    D -- Sim --> E[Exibir mensagem: script vivo]
     D -- Não --> F
     F --> G[Executar script Python script.py]
     G --> H[Python grava seu PID em pid.txt]
