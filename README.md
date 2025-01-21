@@ -50,6 +50,8 @@ chmod +x script.sh
 
 ./script.sh
 
+```
+
 ---
 
 # Script de Monitoramento de Processo
