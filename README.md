@@ -49,3 +49,34 @@ cd monitorar
 chmod +x script.sh
 
 ./script.sh
+
+---
+
+# Script de Monitoramento de Processo
+
+## Descrição
+Este script monitora se um processo Python está em execução com base em um arquivo de PID. Caso o processo não esteja ativo, ele será reiniciado automaticamente.
+
+## Pseudocódigo
+
+```pseudo
+INÍCIO
+    DEFINIR arquivo COMO "pid.txt"
+
+    ENQUANTO VERDADEIRO FAÇA
+        SE arquivo EXISTE ENTÃO
+            LER CONTEÚDO DE arquivo PARA pid
+        SENÃO
+            DEFINIR pid COMO VAZIO
+        FIM_SE
+
+        SE pid NÃO ESTÁ VAZIO E processo COM pid É "python3" ENTÃO
+            ESCREVER "shell  -> 1: It is alive"
+        SENÃO
+            ESCREVER "shell  -> 1: It is dead"
+            EXECUTAR "python3 script.py &"
+        FIM_SE
+
+        AGUARDAR 1 SEGUNDO
+    FIM_ENQUANTO
+FIM
